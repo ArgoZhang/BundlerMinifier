@@ -19,7 +19,7 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <Authors>Argo Zhang</Authors>
+    <Authors>Mads Kristensen, salar2k</Authors>
     <Copyright>Copyright 2022</Copyright>
     <Version>5.2.2</Version>
     <Company>Longbow</Company>
