@@ -109,7 +109,7 @@ namespace BundlerMinifierTest
 
             // CSS
             string cssResult = File.ReadAllText(new FileInfo("../../../artifacts/foo.min.css").FullName);
-            Assert.AreEqual("body{background:url('/test.png')}body{display:block}:root{--bb-width-test:}body{background:url(test2/image.png?foo=hat)}", cssResult);
+            Assert.AreEqual("@supports not selector(::-webkit-scrollbar){.scroll{scrollbar-color:rgba(0,0,0,.3) rgba(0,0,0,0);scrollbar-width:thin}}", cssResult);
 
             // HTML
             string htmlResult = File.ReadAllText("../../../artifacts/foo.min.html");
