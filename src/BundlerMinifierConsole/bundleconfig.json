@@ -1,0 +1,8 @@
+﻿[
+  {
+    "outputFileName": "bootstrap.blazor.bundle.min.css",
+    "inputFiles": [
+      "bootstrap.blazor.css"
+    ]
+  }
+]

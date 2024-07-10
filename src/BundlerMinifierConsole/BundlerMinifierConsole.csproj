@@ -48,12 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="bundleconfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BundlerMinifier\BundlerMinifier.csproj">
       <Project>{b714b5b9-27c4-443c-9517-fe5c5ef46ea2}</Project>
       <Name>BundlerMinifier</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap.blazor.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
